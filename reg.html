@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="logo.png">
+    <link rel="shortcuut" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <style>
+        #body{
+            background-image: url(trin.jpg);
+        }
+        #cont{
+            width: fit-content;
+            height: fit-content;
+            margin: auto;}
+            header{
+                width: 800px;
+                height: 80px;
+                background-image: url(eng.jpg);
+                color: rgb(76, 0, 255);
+
+                clear: both;
+                
+
+            }
+            nav{
+                
+                width: 900px;
+                height: 100px;
+                margin: auto;
+               clear: both;
+                text-align: left;
+                
+            }
+            section{
+                width: 500px;
+                height: fit-content;
+                background: rgba(255, 253, 253, 0.87);
+                margin: auto;
+
+            }
+            footer{
+                clear: both;
+                width: 900px;
+                height: fit-content; 
+                background: rgba(255, 253, 253, 0.87);
+                color: black;
+            }
+            </style>
+
+
+</head>
+
+
+<body id="body">
+
+    <div id="cont">
+    
+        <header>
+            <h1> <span><a href="ab.html"><img src="wd.jpg" width="70" height="60"/></a></span> <mark style="background: rgba(255, 253, 253, 0.87);">AbD Web Services</mark>    </h1>
+            
+          </header>
+
+
+          <nav>
+    
+        <button type=""> <a href="ab.html">Home</a></button>
+        <button> <a href="about.html" target="_blank">About Me</a></button>
+        <button> <a href="C:\Users\sweet_000\Desktop\my website/cont.html" target="_blank">Contact Me</a></button>
+        <hr style="background:rgb(72, 163, 179) ; height:4px;border: 0px;">
+    </nav>
+
+
+    <section>
+    <h1>Register</h1>
+
+<form action="ab.html">
+    <table> 
+        <tr>
+        <td> 
+            <label>
+            <em>Full Name</em> <span style="color:red;">*</span>
+            </label>
+           
+        </td>
+    </tr>
+    <tr>
+        <td>
+             <input type="text" placeholder="Full Name" minlength="3" name="full_name" required name="text">
+        </td>
+     </tr>
+     <tr>
+         <td>
+             <select name="gender" required >
+                 <option value=""> Select Gender<span style="color:red;">*</span></option>
+                 <option value="male">Male</option>
+                 <option value="female">Female</option>
+             </select>
+         </td>
+         
+         <tr>
+        <td>
+            <label>Birthday<span style="color:red;">*</span>:</label>
+
+        </td>
+        
+    </tr>
+    <tr>
+        <td>
+            <input type="date" value="2000-01-01" min="1990-01-01" max="2004-01-01" name="date">
+        </td>
+
+
+     </tr>
+      <tr>
+          <td>
+              <label>Who are you?</label><br>
+              <strong>Individual</strong>
+              <input type="radio" name="who_r_u" value="Individual" required>
+              <strong>Institution</strong>
+              <input type="radio" value="Institution" name="who_r_u" required> 
+
+
+          </td>
+      </tr>
+    <tr>
+        <td>
+           <label>Email<span style="color:red;">*</span>:</label>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>
+             <input placeholder="Email" type="email" required name="email">
+             <input placeholder="Email Again" type="email" required name="email">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label>Password<span style="color:red;">*</span>:</label>
+
+        </td>
+       
+    </tr>
+    <tr>
+         <td>
+             <input type="password" placeholder="Password" name="password" minlength="8" maxlength="16" required>
+             <input type="password" placeholder="Password Again" required minlength="8" maxlength="16" name="password_again">
+        </td>
+    <tr>
+        <td> 
+           <label>Phone Number</label> 
+
+        </td>
+       
+    </tr>
+    <tr>
+         <td>
+            <input type="tel" placeholder="Phone Number" minlength="10" maxlength="16" name="number">
+        </td>
+    </tr>
+
+
+    </tr>
+    <tr>
+        <td>
+            <label?>I agree to the terms <span style="color:red;">*</span></label>
+            <input type="checkbox" required><br>
+            <label?>Send Notification</label>
+            <input type="checkbox" checked>
+        </td>
+        <td>
+            
+        </td>
+
+
+    </tr>
+    <tr>
+        <th dir="rtl" colspan="2">
+            <button type="submit"><strong>Register</strong></button><br>
+            <button type="reset">Reset</button>
+
+        </th>
+    </tr>
+ </table>
+</form>
+
+</section>
+
+
+<footer>
+    <ul>
+        <li><a href="https://www.snapchat.com/add/abdulwahab_3a"><img src="snap.png" width="50"></a>
+        <a href="https://twitter.com/ab_alsharif7?s=21"><img src="twitt.png" width="50"></a>
+        
+            
+            <a href="https://www.instagram.com/aab_3i?igshid=132ka8zioonz3"><img src="insta.png" width="50"></a>
+        <a href="mailto:sweet0711@hotmail.com"><img src="email.png" width="50"></a></li>
+
+    </ul>
+</footer>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <title>AbD Web Services</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="website design,website,website development,services,website services,home services website,websites,website for services,service website,managed website services,html website,services section,wordpress website services,selling websites,website design service,build a website,new website services explained,services section for website,website management services,how to sell your website services,service business website,best website management services,website development services">
+ <!--
+    العناصر الإجبارية لاجل ظهور موقعك في المحركات البحث ومواقع تواصل اجتماعي 
+    1: <title> </title>                   لتحديد العنوان الصفحة
+    2: <meta name="description">           لوصف الصفحة 
+    3: <meta charset="utf-8"/>             لجعل موقع يدعم جميع اشكال الخاصة واحرف
+    لجعل موقع يظهر بشكل صحيح في الهواتف
+    4: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    عناصر اختيارية قد يساعد في تحسين ظهور موقعك في المحركات البحث
+    5: <meta name="keywords">
+    6: <meta name="author">
+    موقع لجلب كلمات المفتاحية القوية 
+    https://rapidtags.io/generator/
+ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AbD web">
+    <meta name="twitter:description" content="Abd is a web services ">
+    <meta name="twitter:image" content="imag2.jpg">
+    <!--<meta name="twitter:site" content="">-->
+    <meta name="twitter:creator" content="@ab_alsharif7">
+
+
+
+
+
+    <meta name="description" content="AbD is a website development services ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link rel="shortcuut" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <style>
+        #mybody{
+            background-image: url(trin.jpg);
+        }
+        #content{
+            width: 900px;
+            height: 600px;
+            margin: auto;}
+            header{
+                width: 800px;
+                height: 80px;
+                background-image: url(eng.jpg);
+                color: rgb(76, 0, 255);
+                text-align: center;
+
+            }
+            nav{
+                
+                width: 900px;
+                height: 120px;
+                
+                
+            }
+            main{
+                width: 900px;
+                background: rgba(255, 253, 253, 0.87);
+                color: black;
+                
+
+            }
+            main article{
+                width: 900px;
+                height: 150px;
+                color:black;
+                text-align: center;
+
+            }
+            main section{
+                
+                width: fit-content;
+                height: 150px;
+                
+            }
+            footer{
+                clear: both;
+                width: 900px;
+                height: fit-content; 
+                background: rgba(255, 253, 253, 0.87);
+                color: black;
+            }
+            .goal{
+                color: black;
+                
+                            }
+            .serv{
+                color: black;
+                
+                margin: 0px;
+            }
+            .sh{
+                margin-left: 700px;
+            }
+
+    </style>
+</head>
+<body id="mybody">
+    <div id="content">
+        <header>
+          <h1> <span><a href="ab.html"><img src="wd.jpg" width="70" height="60"/></a></span> <mark style="background: rgba(255, 253, 253, 0.87);">AbD Web Services</mark>    </h1>
+          
+        </header>
+        <!--
+             <button> <a href="ab.html">Home</a></button>
+       <button> <a href="about.html" target="_blank">About Me</a></button>
+       <button> <a href="C:\Users\sweet_000\Desktop\my website/cont.html" target="_blank">Contact Me</a></button>
+       <br>
+       <details dir="ltr">
+                <summary>Menu</summary>
+                <li><button><a href="C:\Users\sweet_000\Desktop\my website/ab.html">Home</a></button></li>
+                <li><button> <a href="about.html" target="_blank">About Me</a></button></li>
+                <li><button> <a href="C:\Users\sweet_000\Desktop\my website/cont.html" target="_blank">Contact Me</a></button></li>
+     
+            </details>
+        -->
+       
+        <nav>
+              <button><a href="C:\Users\sweet_000\Desktop\my website/ab.html">Home</a></button>
+                <button> <a href="about.html" target="_blank">About Me</a></button>
+                <button> <a href="C:\Users\sweet_000\Desktop\my website/cont.html" target="_blank">Contact Me</a></button>
+                <button onclick="opendia()" type="button" id="but">Login</button>
+                
+                <dialog id="dio" style="top: 200px;background-image: url(trod.jpg)">
+                    <button  onclick="closedia()">Close</button>
+                    <br>
+                    <h3>Login</h3>
+                    <form action="ab.html">
+                    <table>
+                        <tr>
+                            <td>
+                                <label>Email:</label>
+                            </td>
+                            <td>
+                                 <input type="email" name="email"  required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="password"  minlength="8" required>
+             
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" checked> <em>Remember</em>
+             
+                            </td>
+                            <td>
+                                <button type="submit">Login</button>
+                                <button type="reset">Reset</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>You don't have an account?<button><a href="reg.html">Register</a></button> </label>
+                            </td>
+             
+                        </tr>
+             
+                    </table>
+                </form>
+                
+                
+                
+                 
+             </dialog>
+             <script>
+                 
+                 function closedia(){
+                     document.getElementById("dio").removeAttribute("open","false")
+                 }
+                 function opendia(){
+                     document.getElementById("dio").setAttribute("open","true")
+                 }
+             </script>
+     
+       <form class="sh">
+       <input type="search" required> <button type="submit" dir="rtl">Search</button>
+    </form>
+    <hr style="background:rgb(16, 20, 20) ; height:4px;border: 0px;">
+  
+   <marquee style="background-color:#ffff0066" scrollamount="3" width="400" height="30"  direction="down" behavior="slide">
+    I just want to Thank you for visiting my website):
+ </marquee>
+ <br>
+</nav>
+  <!--
+      behavior="slide"
+  -->
+<main>
+   
+    <br>
+    <article class="goal">
+   <h2>Welcome</h2>
+   <p>
+       My goal is to creat websites that can help people to get their job done Asap.
+   </p>
+<!--
+     <button><a href="log.html">Login</a></button>
+    <strong>Or</strong>
+      <button><a href="reg.html">Register</a></button>
+       <br> <img src="trin.jpg" width="300" height="400">
+      <br>
+-->
+  
+ 
+    <br>
+    <br>
+    
+</article>
+<fieldset class="serv">
+    <legend><strong>My Services</strong></legend>
+    <section>
+    <form action="pginfo.html">
+        <select name="service" required>
+    <option value="">Choose the service:</option>
+    <option value="creating_website">Creating a website</option>
+    <option value="development">Website Development</option>
+</select>
+
+<br>
+
+<br>
+
+    <button type="submit">Continue</button><br>
+     
+       
+</form>
+</section>
+
+</fieldset>
+   <!-- Attribute	        Value	            Description
+                                             لتحديد خلفية العنصر بالالوان
+    bgcolor	rgb(x,x,x)  #xxxxxx colorname	Is used to give a background color.
+                                            لتحديد العرض العنصر        
+    height	            pixels , %	        Defines the marquee's height.
+                                            لتحديد ارتفاع العنصر  
+    width               pixels , %          Defines the marquee's width.
+                                            لتحديد كيفية تصرف العنصر عند العمل
+    behavior	    scroll,slide,alternate  Defines the scrolling type.
+                                            لتحديد الاتجاه العنصر , ويمكن اعطى القيمة التالية
+    direction	up , down , left , right	Sets the direction for the scrolling content.
+                                           
+                                            يقوم بإضافة هامش حول العنصر للجهة اليمين واليسار
+    hspace	            pixels          	Defines horizontal space around the marquee.
+    
+                                            يقوم بإضافة هامش حول العنصر للجهة الاعلى الأسفل
+    vspace	            pixels          	Defines vertical space around the marquee.
+                                            لتحديد العدد مرات تكرار العرض  
+    loop	            number	            Defines how many times the content will scroll. 
+                                            If we don't define this, the content will scroll forever.
+                                           
+                                            يحدد السرعة تمرير العناصر الذي تتواجد ضمن العنصر
+    scrollamount	    number	            Defines the scrolling amount at each interval in pixels. Default value is 6.
+ -->
+
+</main>
+
+<footer>
+    <ul>
+        <li><a href="https://www.snapchat.com/add/abdulwahab_3a"><img src="snap.png" width="50"></a>
+        <a href="https://twitter.com/ab_alsharif7?s=21"><img src="twitt.png" width="50"></a>
+        
+            
+            <a href="https://www.instagram.com/aab_3i?igshid=132ka8zioonz3"><img src="insta.png" width="50"></a>
+        <a href="mailto:sweet0711@hotmail.com"><img src="email.png" width="50"></a></li>
+
+    </ul>
+</footer>
+
+</div>
+</body>
+</html>

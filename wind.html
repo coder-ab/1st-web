@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1 id="tex" contenteditable="true">what is your name?</h1>
+    <button onclick="save()" type="button">save</button>
+    <button onclick="edit()" type="button">edit</button>
+
+    <script>
+        function save(){
+            document.getElementById("tex").contentEditable = "false";
+
+        }
+        function edit(){
+            document.getElementById("tex").contentEditable = "true";
+        }
+    </script>
+    <br>
+
+
+    <dialog id="dio" open="true">
+        <h3>sign up</h3>
+        <img src="trin.jpg" width="300" height="400">
+        <br>
+        <button onclick="closedia()">Close</button>
+
+
+    </dialog>
+    <script>
+        
+        function closedia(){
+            document.getElementById("dio").removeAttribute("open","false")
+
+
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
