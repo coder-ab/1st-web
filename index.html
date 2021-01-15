@@ -94,6 +94,10 @@ height: 500px;
                 
                 margin: 0px;
             }
+        .sh{
+                            margin-left: 50px;
+
+        }
            
     </style>
 </head>
@@ -122,67 +126,12 @@ height: 500px;
                 <button> <a href="about.html" target="_blank">About Me</a></button>
                 <button> <a href="cont.html" target="_blank">Contact Me</a></button>
 <br>
-  <button onclick="opendia()" type="button" id="but">Login</button>
-                
-                <dialog id="dio" style="top: 250px;background-image: url(trod.jpg)">
-                    <button  onclick="closedia()">Close</button>
-                    <br>
-                    <h3>Login</h3>
-                    <form action="ab.html">
-                    <table>
-                        <tr>
-                            <td>
-                                <label>Email:</label>
-                            </td>
-                            <td>
-                                 <input type="email" name="email"  required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>Password:</label>
-                            </td>
-                            <td>
-                                <input type="password" name="password"  minlength="8" required>
-             
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" checked> <em>Remember</em>
-             
-                            </td>
-                            <td>
-                                <button type="submit">Login</button>
-                                <button type="reset">Reset</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>You don't have an account?<button><a href="reg.html">Register</a></button> </label>
-                            </td>
-             
-                        </tr>
-             
-                    </table>
-                </form>
-                
-                
-                
-                 
-             </dialog>
-             <script>
-                 
-                 function closedia(){
-                     document.getElementById("dio").removeAttribute("open","false")
-                 }
-                 function opendia(){
-                     document.getElementById("dio").setAttribute("open","true")
-                 }
-             </script>
+ <button><a href="log.html">Login</a></button>
+   <strong>Or</strong>
+     <button><a href="reg.html">Register</a></button>
     <br>
 
-<form class="sh" dir="rtl">
+<form class="sh">
        <input type="search" required> <button type="submit">Search</button>
     </form>
 
