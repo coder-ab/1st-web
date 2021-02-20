@@ -1,0 +1,67 @@
+body{
+    background-image: url(trin.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    
+    margin: auto;}
+    header{
+       
+        background-image: url(eng.jpg);
+        background-repeat: no-repeat;
+        /* background-position: 50% 50%; */
+        background-size: cover;
+        color: rgb(76, 0, 255);
+        text-align: center;
+
+    }
+   /* nav{
+        
+        width: 900px;
+        height: 120px;
+        
+        
+    }*/
+    main,nav,footer{
+       
+        background: rgba(255, 253, 253, 0.87);
+        color: black;
+        
+
+    }
+  /*  main article{
+       
+        color:black;
+        text-align: center;
+
+    }
+    main section{
+        
+       
+    }*/
+   /* footer{
+        clear: both;
+        width: 900px;
+        height: fit-content; 
+        background: rgba(255, 253, 253, 0.87);
+        color: black;
+    }*/
+    .goal{
+        color: black;
+        
+                    }
+    .serv{
+        color: black;
+        
+        margin: 0px;
+    }
+    .sh{
+        text-align: right;
+    }
+    #dio {
+        background-image: url(trod.jpg);
+        background-position: 50% 50%;
+        color: white;
+    }
